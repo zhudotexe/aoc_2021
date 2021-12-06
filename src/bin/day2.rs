@@ -44,6 +44,22 @@ fn part2(input: &String) {
             _ => panic!("invalid match")
         }
     }
+    // py3.10 equivalent because i got nerdsniped:
+    /*
+    directions = the_input.split("\n")
+    for direction in directions:
+      op, amt = direction.split(" ", 1)
+      match op, int(amt):
+        case "forward", x:
+          horiz += x
+          vert += aim * x
+        case "down", x:
+          aim += x
+        case "up", x:
+          aim -= x
+        case _:
+          raise ValueError
+     */
 
     println!("Horiz: {} Vert: {}", horiz, vert);
     println!("Result: {}", horiz * vert)
