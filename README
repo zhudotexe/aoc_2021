@@ -1,0 +1,5 @@
+AoC 2021
+========
+I'm using AoC2021 as an excuse to learn Rust (and maybe some other languages). Please do *not*
+use this repository as a good source for AoC solutions or Rust practices - this is my very first
+time using Rust at all, and I will likely be making many mistakes.
